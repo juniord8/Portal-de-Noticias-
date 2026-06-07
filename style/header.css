@@ -1,0 +1,29 @@
+#primary {
+    padding-block: 20px;
+
+
+    /*Esta div pega todas as divs do <nav id="primary" class="grid grid-flow-col">*/
+    div {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+
+    /*nesting css. Nesting = escrever o CSS do filho dentro do CSS do pai. Ou seja, o CSS fica "aninhado" (nested) igual ao HTML. Essa é a associação mais fácil de memorizar. o div:nth-child(2) significa: Pegue o segundo div dentro do #primary 🚀*/
+    div:nth-child(2) {
+        margin-inline: auto;
+        
+    }
+
+    div:nth-child(3) {
+        justify-self: end;
+
+    }
+}
+
+#secondary {
+    padding-block: 14px;
+    border: solid 1px var(--stroke-color);
+    border-inline: none;
+}
