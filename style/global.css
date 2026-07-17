@@ -43,6 +43,10 @@ h1, h2, h3 {
     
 }
 
+img {
+    max-width: 100%; /* max-width: quer dizer: Respeite a largura maxima de 100% relativo a caixa que estou no momento*/
+}
+
 .container {
     max-width: 1280px;
     padding-inline: 32px;
@@ -50,13 +54,7 @@ h1, h2, h3 {
 
 }
 
-/* utility-fisrt (Crio  classe utilitaria e vou aplicando ela onde eu quiser */
-/* botei grid na class do html e ele já aplicou  Ex: Olhe no html <nav id="secondary" class="grid">*/
-.grid {
-    display: grid;
+main {
+    margin-top: 40px;
 }
 
-/* aqui ja transforma o <nav id="secondary" class="grid grid-flow-col"> em colunas .. olha no html também*/
-.grid-flow-col {
-    grid-auto-flow: column;
-}

@@ -1,0 +1,20 @@
+/* utility-fisrt (Crio  classe utilitaria e vou aplicando ela onde eu quiser */
+/* botei grid na class do html e ele já aplicou  Ex: Olhe no html <nav id="secondary" class="grid">*/
+.grid {
+    display: grid;
+}
+
+/* aqui ja transforma o <nav id="secondary" class="grid grid-flow-col"> em colunas .. olha no html também*/
+.grid-flow-col {
+    grid-auto-flow: column;
+}
+
+
+/* ⬇ no caso fica imagem grande em uma coluna e as outras quatro em outra coluna. 1fr 1fr.. */
+.grid-cols-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+    gap: 16px;
+}
